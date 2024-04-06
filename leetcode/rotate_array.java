@@ -18,8 +18,8 @@ class Solution {
     }
 
     // O(1) steps
-    // public void rotate(int[] nums, int k) {
-	// 	k = k % nums.length; // to know how many numbers to reverse
+    //  public void rotate(int[] nums, int k) {
+	// 	k = k % nums.length;
 	// 	reverse(nums, 0, nums.length - 1);
 	// 	reverse(nums, 0, k - 1);
 	// 	reverse(nums, k, nums.length - 1);
@@ -29,6 +29,7 @@ class Solution {
 	// 	while (start < end) {
 	// 		int temp = nums[start];
 	// 		nums[start] = nums[end];
+    //         nums[end] = temp;
 	// 		start++;
 	// 		end--;
 	// 	}
