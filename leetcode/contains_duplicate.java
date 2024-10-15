@@ -1,13 +1,18 @@
 import java.util.*;
+
 class Solution {
-    public boolean containsDuplicate(int[] nums) {      
-            HashSet<Integer> found = new HashSet<>();
-        for (int n : nums) {
-            if (!found.add(n)) {
+    public boolean containsDuplicate(int[] nums) {
+        // A HashSet is a collection of items where every item is unique, and it is found in the java.util package:
+        HashSet<Integer> hashSet = new HashSet<>();
+        
+        // foreach loop
+        for (int num : nums) {
+            if (hashSet.contains(num)) {
                 return true;
             }
+            hashSet.add(num);
         }
-
-		return false;
+        return false;
     }
 }
+// Time complexity: O(n)
