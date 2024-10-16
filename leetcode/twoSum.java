@@ -11,8 +11,9 @@ public class twoSum {
         HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
 
         for (int i = 0; i < nums.length; i++) {
-            if (hashmap.containsKey(target - nums[i])) {
-                return new int[]{i, hashmap.get(target - nums[i])};
+            int diff = target-nums[i];
+            if (hashmap.containsKey(diff)) {
+                return new int[]{hashmap.get(diff),i};
             }
             hashmap.put(nums[i], i); // array value as key, array index as value 
         }
