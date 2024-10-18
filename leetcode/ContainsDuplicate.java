@@ -1,6 +1,8 @@
+// LeetCode 217. Contains Duplicate 
+
 import java.util.*;
 
-class Solution {
+public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         // A HashSet is a collection of items where every item is unique, and it is found in the java.util package:
         HashSet<Integer> hashSet = new HashSet<>();
