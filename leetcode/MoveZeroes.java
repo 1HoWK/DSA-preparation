@@ -1,4 +1,6 @@
-public class RotateList {
+// LeetCode 283. Move Zeroes
+
+public class MoveZeroes {
     public void moveZeroes(int[] nums) {
         // two pointers
         // store the value of the first index
