@@ -1,4 +1,4 @@
-// LeetCode 217. Contains Duplicate 
+// LeetCode 217. Contains Duplicate
 
 import java.util.*;
 

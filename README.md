@@ -1,2 +1,2 @@
-# Preparation for DSA technical test
-### code written in java
+# Preparation for coding interview
+### written in java
